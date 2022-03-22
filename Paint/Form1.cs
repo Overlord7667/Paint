@@ -103,6 +103,11 @@ namespace Paint
             graphics.FillEllipse(brush, x - 80, y - 80, 160, 160);
             graphics.FillEllipse(new SolidBrush(Color.White), x - 20, y -20, 40, 40);
         }
+
+        void Spruce()
+        {
+
+        }
         private void button3_Click(object sender, EventArgs e)
         {
             graphics = pictureBox1.CreateGraphics();
@@ -118,6 +123,11 @@ namespace Paint
             graphics.Clear(Color.White);
             int count = Convert.ToInt32(textBox2.Text);
             DrawGear(count, 100);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
